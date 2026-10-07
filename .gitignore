@@ -11,3 +11,5 @@ out/
 /reports/browser-backup.json
 __pycache__/
 /reports/screenshots/
+
+/reports/answer-audit-evidence/

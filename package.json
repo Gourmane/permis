@@ -13,7 +13,9 @@
     "test:browser": "node scripts/browser-smoke.mjs",
     "test:quiz": "node scripts/browser-quiz.mjs",
     "validate-content:strict": "tsx scripts/validate-content.ts --strict",
-    "postbuild": "node scripts/normalize-export.mjs"
+    "postbuild": "node scripts/normalize-export.mjs",
+    "validate-questions": "tsx scripts/validate-content.ts",
+    "test:answer-audit": "node scripts/browser-answer-audit.mjs"
   },
   "dependencies": {
     "@fontsource/noto-kufi-arabic": "^5.3.0",

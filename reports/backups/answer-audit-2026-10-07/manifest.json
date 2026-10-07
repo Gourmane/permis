@@ -1,0 +1,22 @@
+[
+  {
+    "file": "src/data/questions.generated.json",
+    "sha256": "61ad43e0c1ebb7f6b11c311923cfc427327d6d819d40b14af9be105d95c1a066"
+  },
+  {
+    "file": "src/data/series.generated.json",
+    "sha256": "ceb0956e7f36ac0252265b1770fbbd4e2758bbe0ead0a736701d14bfffd26885"
+  },
+  {
+    "file": "reports/verified-extraction.json",
+    "sha256": "726f54f656638773f7a4d5c49feb76cc7f46c3eaca228ec13a6996770f06e194"
+  },
+  {
+    "file": "public/questions/series-03/question-035.webp",
+    "sha256": "60b6308a0fd02eaf8fe3a92c2dd6f45580c1d49e9c53224e36dde66941f8c495"
+  },
+  {
+    "file": "public/questions/series-04/question-026.webp",
+    "sha256": "e5aad34c065ac19c35cd62ccca0ea367e3cdb5f80e2b5c8857f17708e8daaa02"
+  }
+]

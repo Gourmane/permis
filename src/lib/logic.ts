@@ -22,12 +22,18 @@ export function equalAnswers(
   a: readonly number[],
   b: readonly number[],
 ): boolean {
+  if (
+    ![...a, ...b].every(
+      (value) => Number.isInteger(value) && value >= 1 && value <= 4,
+    )
+  )
+    return false;
+  const left = [...new Set(a)].sort((x, y) => x - y);
+  const right = [...new Set(b)].sort((x, y) => x - y);
   return (
-    a.length > 0 &&
-    a.length === b.length &&
-    new Set(a).size === a.length &&
-    new Set(b).size === b.length &&
-    a.every((x) => b.includes(x))
+    left.length > 0 &&
+    left.length === right.length &&
+    left.every((value, index) => value === right[index])
   );
 }
 export function recordAnswer(

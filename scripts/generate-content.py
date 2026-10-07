@@ -18,14 +18,18 @@ for v in meta:
  answers=verified['answers'].get(str(n),['']*expected);topics=verified['topics'].get(str(n),' '.join(['other']*expected)).split();assert len(answers)==len(topics)==expected,(n,len(answers),len(topics))
  folder=Path(f'public/questions/series-{n:02}');folder.mkdir(parents=True,exist_ok=True)
  for i,g in enumerate(groups,1):
-  first,last=g[0],g[-1];f=cv2.imread(f"reports/frames/s{n:02}/{first['number']:03}-clean.jpg");hsv=cv2.cvtColor(f,cv2.COLOR_BGR2HSV)
+  first,last=g[0],g[-1];question_time=verified.get('questionTimestampOverrides',{}).get(f's{n:02}-q{i:03}',first['start']+2);f=cv2.imread(f"reports/frames/s{n:02}/{first['number']:03}-clean.jpg");
+  if question_time!=first['start']+2:
+   cap=cv2.VideoCapture(str(Path('source-videos')/v['file']));cap.set(cv2.CAP_PROP_POS_MSEC,question_time*1000);ok,f=cap.read();cap.release()
+   if not ok:raise RuntimeError(f'Cannot decode clean frame for series {n}, question {i}')
+  hsv=cv2.cvtColor(f,cv2.COLOR_BGR2HSV)
   # Remove recorded simulator controls, preserving the full question panel.
   sidebar=755
   for x in range(690,800):
    if np.mean((hsv[255:465,x,0]>=100)&(hsv[255:465,x,0]<=135)&(hsv[255:465,x,1]>50))>.68:sidebar=x;break
   crop=f[:475,:max(700,sidebar-3)]
   im=Image.fromarray(cv2.cvtColor(crop,cv2.COLOR_BGR2RGB));im.save(folder/f'question-{i:03}.webp',quality=94,method=6)
-  answer=list(map(int,answers[i-1]));q={'id':f's{n:02}-q{i:03}','seriesId':f'series-{n:02}','seriesNumber':n,'questionNumber':i,'image':f'/questions/series-{n:02}/question-{i:03}.webp','correctAnswers':answer,'topic':topics[i-1],'sourceVideo':v['file'],'questionTimestamp':first['start']+2,'answerTimestamp':last['end']-2 if answer else None,'confidence':.97 if answer else 0,'needsReview':not bool(answer)}
+  answer=list(map(int,answers[i-1]));q={'id':f's{n:02}-q{i:03}','seriesId':f'series-{n:02}','seriesNumber':n,'questionNumber':i,'image':f'/questions/series-{n:02}/question-{i:03}.webp','correctAnswers':answer,'topic':topics[i-1],'sourceVideo':v['file'],'questionTimestamp':question_time,'answerTimestamp':last['end']-2 if answer else None,'confidence':.97 if answer else 0,'needsReview':not bool(answer)}
   if not answer:q['notes']='لم تظهر إجابة محددة بصريًا في الفيديو. يلزم التحقق من الشرح الصوتي يدويًا. لم تُخمّن الإجابة أو تصنيف الموضوع.'
   allq.append(q)
   if len(g)>1:dupes.append({'questionId':q['id'],'mergedCandidates':[s['number']for s in g]})
