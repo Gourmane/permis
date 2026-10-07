@@ -1,0 +1,558 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-07T14:48:49.893Z",
+  "title": "Design System: طريقي",
+  "extensions": {
+    "colorMeta": {
+      "bg": {
+        "role": "primary",
+        "displayName": "Deep Road Blue",
+        "tonalRamp": [
+          "oklch(15.00% 0.09327 257.52)",
+          "oklch(26.43% 0.09327 257.52)",
+          "oklch(37.86% 0.09327 257.52)",
+          "oklch(49.29% 0.09327 257.52)",
+          "oklch(60.71% 0.09327 257.52)",
+          "oklch(72.14% 0.09327 257.52)",
+          "oklch(83.57% 0.09327 257.52)",
+          "oklch(95.00% 0.09327 257.52)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Layer Blue",
+        "tonalRamp": [
+          "oklch(15.00% 0.10549 256.95)",
+          "oklch(26.43% 0.10549 256.95)",
+          "oklch(37.86% 0.10549 256.95)",
+          "oklch(49.29% 0.10549 256.95)",
+          "oklch(60.71% 0.10549 256.95)",
+          "oklch(72.14% 0.10549 256.95)",
+          "oklch(83.57% 0.10549 256.95)",
+          "oklch(95.00% 0.10549 256.95)"
+        ]
+      },
+      "royal": {
+        "role": "primary",
+        "displayName": "Royal Practice Blue",
+        "tonalRamp": [
+          "oklch(15.00% 0.15665 259.03)",
+          "oklch(26.43% 0.15665 259.03)",
+          "oklch(37.86% 0.15665 259.03)",
+          "oklch(49.29% 0.15665 259.03)",
+          "oklch(60.71% 0.15665 259.03)",
+          "oklch(72.14% 0.15665 259.03)",
+          "oklch(83.57% 0.15665 259.03)",
+          "oklch(95.00% 0.15665 259.03)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "White Type",
+        "tonalRamp": [
+          "oklch(15.00% 0.00000 89.88)",
+          "oklch(26.43% 0.00000 89.88)",
+          "oklch(37.86% 0.00000 89.88)",
+          "oklch(49.29% 0.00000 89.88)",
+          "oklch(60.71% 0.00000 89.88)",
+          "oklch(72.14% 0.00000 89.88)",
+          "oklch(83.57% 0.00000 89.88)",
+          "oklch(95.00% 0.00000 89.88)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Cool Supporting Type",
+        "tonalRamp": [
+          "oklch(15.00% 0.03859 255.62)",
+          "oklch(26.43% 0.03859 255.62)",
+          "oklch(37.86% 0.03859 255.62)",
+          "oklch(49.29% 0.03859 255.62)",
+          "oklch(60.71% 0.03859 255.62)",
+          "oklch(72.14% 0.03859 255.62)",
+          "oklch(83.57% 0.03859 255.62)",
+          "oklch(95.00% 0.03859 255.62)"
+        ]
+      },
+      "primary": {
+        "role": "primary",
+        "displayName": "Warm Signal Yellow",
+        "tonalRamp": [
+          "oklch(15.00% 0.14925 81.47)",
+          "oklch(26.43% 0.14925 81.47)",
+          "oklch(37.86% 0.14925 81.47)",
+          "oklch(49.29% 0.14925 81.47)",
+          "oklch(60.71% 0.14925 81.47)",
+          "oklch(72.14% 0.14925 81.47)",
+          "oklch(83.57% 0.14925 81.47)",
+          "oklch(95.00% 0.14925 81.47)"
+        ]
+      },
+      "soft": {
+        "role": "neutral",
+        "displayName": "Soft Blue",
+        "tonalRamp": [
+          "oklch(15.00% 0.12305 256.80)",
+          "oklch(26.43% 0.12305 256.80)",
+          "oklch(37.86% 0.12305 256.80)",
+          "oklch(49.29% 0.12305 256.80)",
+          "oklch(60.71% 0.12305 256.80)",
+          "oklch(72.14% 0.12305 256.80)",
+          "oklch(83.57% 0.12305 256.80)",
+          "oklch(95.00% 0.12305 256.80)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Border Blue",
+        "tonalRamp": [
+          "oklch(15.00% 0.09552 254.86)",
+          "oklch(26.43% 0.09552 254.86)",
+          "oklch(37.86% 0.09552 254.86)",
+          "oklch(49.29% 0.09552 254.86)",
+          "oklch(60.71% 0.09552 254.86)",
+          "oklch(72.14% 0.09552 254.86)",
+          "oklch(83.57% 0.09552 254.86)",
+          "oklch(95.00% 0.09552 254.86)"
+        ]
+      },
+      "green": {
+        "role": "secondary",
+        "displayName": "Correct Green",
+        "tonalRamp": [
+          "oklch(15.00% 0.10425 158.44)",
+          "oklch(26.43% 0.10425 158.44)",
+          "oklch(37.86% 0.10425 158.44)",
+          "oklch(49.29% 0.10425 158.44)",
+          "oklch(60.71% 0.10425 158.44)",
+          "oklch(72.14% 0.10425 158.44)",
+          "oklch(83.57% 0.10425 158.44)",
+          "oklch(95.00% 0.10425 158.44)"
+        ]
+      },
+      "red": {
+        "role": "secondary",
+        "displayName": "Answer Red",
+        "tonalRamp": [
+          "oklch(15.00% 0.17950 20.81)",
+          "oklch(26.43% 0.17950 20.81)",
+          "oklch(37.86% 0.17950 20.81)",
+          "oklch(49.29% 0.17950 20.81)",
+          "oklch(60.71% 0.17950 20.81)",
+          "oklch(72.14% 0.17950 20.81)",
+          "oklch(83.57% 0.17950 20.81)",
+          "oklch(95.00% 0.17950 20.81)"
+        ]
+      },
+      "amber": {
+        "role": "secondary",
+        "displayName": "Amber",
+        "tonalRamp": [
+          "oklch(15.00% 0.09699 76.46)",
+          "oklch(26.43% 0.09699 76.46)",
+          "oklch(37.86% 0.09699 76.46)",
+          "oklch(49.29% 0.09699 76.46)",
+          "oklch(60.71% 0.09699 76.46)",
+          "oklch(72.14% 0.09699 76.46)",
+          "oklch(83.57% 0.09699 76.46)",
+          "oklch(95.00% 0.09699 76.46)"
+        ]
+      },
+      "nav-bg": {
+        "role": "neutral",
+        "displayName": "Navigation Blue",
+        "tonalRamp": [
+          "oklch(15.00% 0.08186 257.58)",
+          "oklch(26.43% 0.08186 257.58)",
+          "oklch(37.86% 0.08186 257.58)",
+          "oklch(49.29% 0.08186 257.58)",
+          "oklch(60.71% 0.08186 257.58)",
+          "oklch(72.14% 0.08186 257.58)",
+          "oklch(83.57% 0.08186 257.58)",
+          "oklch(95.00% 0.08186 257.58)"
+        ]
+      },
+      "control-bg": {
+        "role": "neutral",
+        "displayName": "Control Blue",
+        "tonalRamp": [
+          "oklch(15.00% 0.11334 255.76)",
+          "oklch(26.43% 0.11334 255.76)",
+          "oklch(37.86% 0.11334 255.76)",
+          "oklch(49.29% 0.11334 255.76)",
+          "oklch(60.71% 0.11334 255.76)",
+          "oklch(72.14% 0.11334 255.76)",
+          "oklch(83.57% 0.11334 255.76)",
+          "oklch(95.00% 0.11334 255.76)"
+        ]
+      },
+      "control-hover": {
+        "role": "neutral",
+        "displayName": "Control Hover",
+        "tonalRamp": [
+          "oklch(15.00% 0.12026 254.73)",
+          "oklch(26.43% 0.12026 254.73)",
+          "oklch(37.86% 0.12026 254.73)",
+          "oklch(49.29% 0.12026 254.73)",
+          "oklch(60.71% 0.12026 254.73)",
+          "oklch(72.14% 0.12026 254.73)",
+          "oklch(83.57% 0.12026 254.73)",
+          "oklch(95.00% 0.12026 254.73)"
+        ]
+      },
+      "royal-hover": {
+        "role": "neutral",
+        "displayName": "Royal Hover",
+        "tonalRamp": [
+          "oklch(15.00% 0.15621 257.59)",
+          "oklch(26.43% 0.15621 257.59)",
+          "oklch(37.86% 0.15621 257.59)",
+          "oklch(49.29% 0.15621 257.59)",
+          "oklch(60.71% 0.15621 257.59)",
+          "oklch(72.14% 0.15621 257.59)",
+          "oklch(83.57% 0.15621 257.59)",
+          "oklch(95.00% 0.15621 257.59)"
+        ]
+      },
+      "focus": {
+        "role": "neutral",
+        "displayName": "Warm Focus",
+        "tonalRamp": [
+          "oklch(15.00% 0.12404 86.18)",
+          "oklch(26.43% 0.12404 86.18)",
+          "oklch(37.86% 0.12404 86.18)",
+          "oklch(49.29% 0.12404 86.18)",
+          "oklch(60.71% 0.12404 86.18)",
+          "oklch(72.14% 0.12404 86.18)",
+          "oklch(83.57% 0.12404 86.18)",
+          "oklch(95.00% 0.12404 86.18)"
+        ]
+      },
+      "destination-red": {
+        "role": "secondary",
+        "displayName": "Destination Red",
+        "tonalRamp": [
+          "oklch(15.00% 0.19103 21.11)",
+          "oklch(26.43% 0.19103 21.11)",
+          "oklch(37.86% 0.19103 21.11)",
+          "oklch(49.29% 0.19103 21.11)",
+          "oklch(60.71% 0.19103 21.11)",
+          "oklch(72.14% 0.19103 21.11)",
+          "oklch(83.57% 0.19103 21.11)",
+          "oklch(95.00% 0.19103 21.11)"
+        ]
+      },
+      "success-bg": {
+        "role": "secondary",
+        "displayName": "Success Tint",
+        "tonalRamp": [
+          "oklch(15.00% 0.03207 158.33)",
+          "oklch(26.43% 0.03207 158.33)",
+          "oklch(37.86% 0.03207 158.33)",
+          "oklch(49.29% 0.03207 158.33)",
+          "oklch(60.71% 0.03207 158.33)",
+          "oklch(72.14% 0.03207 158.33)",
+          "oklch(83.57% 0.03207 158.33)",
+          "oklch(95.00% 0.03207 158.33)"
+        ]
+      },
+      "error-bg": {
+        "role": "secondary",
+        "displayName": "Error Tint",
+        "tonalRamp": [
+          "oklch(15.00% 0.02876 9.72)",
+          "oklch(26.43% 0.02876 9.72)",
+          "oklch(37.86% 0.02876 9.72)",
+          "oklch(49.29% 0.02876 9.72)",
+          "oklch(60.71% 0.02876 9.72)",
+          "oklch(72.14% 0.02876 9.72)",
+          "oklch(83.57% 0.02876 9.72)",
+          "oklch(95.00% 0.02876 9.72)"
+        ]
+      },
+      "error-ink": {
+        "role": "secondary",
+        "displayName": "Error Ink",
+        "tonalRamp": [
+          "oklch(15.00% 0.16649 20.99)",
+          "oklch(26.43% 0.16649 20.99)",
+          "oklch(37.86% 0.16649 20.99)",
+          "oklch(49.29% 0.16649 20.99)",
+          "oklch(60.71% 0.16649 20.99)",
+          "oklch(72.14% 0.16649 20.99)",
+          "oklch(83.57% 0.16649 20.99)",
+          "oklch(95.00% 0.16649 20.99)"
+        ]
+      },
+      "warning-bg": {
+        "role": "secondary",
+        "displayName": "Warning Tint",
+        "tonalRamp": [
+          "oklch(15.00% 0.04796 88.81)",
+          "oklch(26.43% 0.04796 88.81)",
+          "oklch(37.86% 0.04796 88.81)",
+          "oklch(49.29% 0.04796 88.81)",
+          "oklch(60.71% 0.04796 88.81)",
+          "oklch(72.14% 0.04796 88.81)",
+          "oklch(83.57% 0.04796 88.81)",
+          "oklch(95.00% 0.04796 88.81)"
+        ]
+      },
+      "track": {
+        "role": "neutral",
+        "displayName": "Progress Track",
+        "tonalRamp": [
+          "oklch(15.00% 0.10696 255.90)",
+          "oklch(26.43% 0.10696 255.90)",
+          "oklch(37.86% 0.10696 255.90)",
+          "oklch(49.29% 0.10696 255.90)",
+          "oklch(60.71% 0.10696 255.90)",
+          "oklch(72.14% 0.10696 255.90)",
+          "oklch(83.57% 0.10696 255.90)",
+          "oklch(95.00% 0.10696 255.90)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "headline": {
+        "displayName": "Page heading",
+        "purpose": "Responsive welcome and page headings; 25px at 520px and below."
+      },
+      "title": {
+        "displayName": "Section heading",
+        "purpose": "Kufi section hierarchy."
+      },
+      "card-title": {
+        "displayName": "Card title",
+        "purpose": "Series and compact Arabic headings."
+      },
+      "body": {
+        "displayName": "Arabic body",
+        "purpose": "Instructions and reading; 14px on small mobile."
+      },
+      "label": {
+        "displayName": "Supporting label",
+        "purpose": "Filters, secondary information and progress labels."
+      },
+      "answer-number": {
+        "displayName": "Answer key digit",
+        "purpose": "Large Latin digits in four isolated left-to-right answer keys."
+      }
+    },
+    "shadows": [
+      {
+        "name": "destination",
+        "value": "0 12px 26px #00173335",
+        "purpose": "Depth beneath home destination links."
+      },
+      {
+        "name": "series",
+        "value": "0 10px 22px #00173330",
+        "purpose": "Ready series cards; blocked cards remove the shadow."
+      },
+      {
+        "name": "dialog",
+        "value": "0 18px 80px #00173380",
+        "purpose": "Native source-image modal."
+      }
+    ],
+    "motion": [
+      {
+        "name": "background",
+        "value": "background 0.15s",
+        "purpose": "Buttons, home destinations and answer keys."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "transition: none !important; scroll-behavior: auto !important",
+        "purpose": "Respect reduced-motion preference."
+      },
+      {
+        "name": "progress",
+        "value": "transition: none",
+        "purpose": "Progress changes render immediately."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide",
+        "value": "1500px",
+        "condition": "min-width"
+      },
+      {
+        "name": "compact-desktop",
+        "value": "1150px",
+        "condition": "max-width"
+      },
+      {
+        "name": "quiz-collapse",
+        "value": "1000px",
+        "condition": "max-width"
+      },
+      {
+        "name": "mobile-navigation",
+        "value": "800px",
+        "condition": "max-width"
+      },
+      {
+        "name": "small-mobile",
+        "value": "520px",
+        "condition": "max-width"
+      }
+    ],
+    "focus": {
+      "value": "3px solid #ffd575",
+      "offset": "4px"
+    },
+    "dialogBackdrop": {
+      "value": "#00152bd9"
+    },
+    "backgroundPattern": {
+      "source": "public/traffic-pattern.svg",
+      "tile": "380px 360px",
+      "stroke": "#70a8e2",
+      "opacity": 0.11
+    },
+    "sources": [
+      "src/app/globals.css",
+      "src/app/layout.tsx",
+      "src/components/ui.tsx",
+      "src/components/shell.tsx",
+      "src/features/dashboard.tsx",
+      "src/features/quiz.tsx",
+      "src/lib/numbers.ts",
+      "src/lib/content.ts",
+      "public/traffic-pattern.svg",
+      "reports/screenshots/desktop.png",
+      "reports/screenshots/mobile.png",
+      "reports/screenshots/quiz-feedback-desktop.png",
+      "reports/screenshots/quiz-feedback-mobile.png",
+      ".impeccable/review/results.png"
+    ],
+    "visualAuthority": "User-pinned deep blue/royal blue/white/yellow world supersedes seed 15144445.",
+    "contentStatus": "Series 1 source images exist; answer keys remain unverified and scoring is blocked.",
+    "tonalRampNote": "Derived OKLCH preview strips preserve hue/chroma while stepping lightness from 15% to 95%; these are not implemented palette alternatives."
+  },
+  "components": [
+    {
+      "name": "Primary action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "A rounded Arabic action with the implemented hover, focus and disabled treatment.",
+      "html": "<button type=\"button\" class=\"ds-button-primary\" dir=\"rtl\">تأكيد الإجابة</button>",
+      "css": ".ds-button-primary{min-height:48px;border:1px solid var(--line,#315a8d);border-radius:12px;padding:11px 20px;display:inline-flex;align-items:center;justify-content:center;gap:10px;font-size:15px;font-weight:600;line-height:1.6;cursor:pointer;transition:background .15s;font-family:\"Noto Sans Arabic\",sans-serif;background:var(--primary,#ffc34a);border-color:var(--primary,#ffc34a);color:var(--bg,#082b5a)}.ds-button-primary:hover{background:#ffd575}.ds-button-primary:disabled{opacity:.55;cursor:not-allowed}.ds-button-primary:focus-visible{outline:3px solid #ffd575;outline-offset:4px}@media(prefers-reduced-motion:reduce){.ds-button-primary{transition:none!important}}"
+    },
+    {
+      "name": "Secondary action",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "A rounded Arabic action with the implemented hover, focus and disabled treatment.",
+      "html": "<button type=\"button\" class=\"ds-button-secondary\" dir=\"rtl\">العودة للسلاسل</button>",
+      "css": ".ds-button-secondary{min-height:48px;border:1px solid var(--line,#315a8d);border-radius:12px;padding:11px 20px;display:inline-flex;align-items:center;justify-content:center;gap:10px;font-size:15px;font-weight:600;line-height:1.6;cursor:pointer;transition:background .15s;font-family:\"Noto Sans Arabic\",sans-serif;background:#164783;color:#fff}.ds-button-secondary:hover{background:#235a9b}.ds-button-secondary:disabled{opacity:.55;cursor:not-allowed}.ds-button-secondary:focus-visible{outline:3px solid #ffd575;outline-offset:4px}@media(prefers-reduced-motion:reduce){.ds-button-secondary{transition:none!important}}"
+    },
+    {
+      "name": "Danger action",
+      "kind": "button",
+      "refersTo": "button-danger",
+      "description": "A rounded Arabic action with the implemented hover, focus and disabled treatment.",
+      "html": "<button type=\"button\" class=\"ds-button-danger\" dir=\"rtl\">مسح التقدم</button>",
+      "css": ".ds-button-danger{min-height:48px;border:1px solid var(--line,#315a8d);border-radius:12px;padding:11px 20px;display:inline-flex;align-items:center;justify-content:center;gap:10px;font-size:15px;font-weight:600;line-height:1.6;cursor:pointer;transition:background .15s;font-family:\"Noto Sans Arabic\",sans-serif;background:#791c2b;border-color:#a34753;color:#ffe0e2}.ds-button-danger:hover{background:#235a9b}.ds-button-danger:disabled{opacity:.55;cursor:not-allowed}.ds-button-danger:focus-visible{outline:3px solid #ffd575;outline-offset:4px}@media(prefers-reduced-motion:reduce){.ds-button-danger{transition:none!important}}"
+    },
+    {
+      "name": "Select filter",
+      "kind": "input",
+      "refersTo": "field-select",
+      "description": "Arabic filter label above a blue select.",
+      "html": "<label class=\"ds-field\" dir=\"rtl\">الموضوع<select class=\"ds-select\"><option>كل المواضيع</option><option>الإشارات</option></select></label>",
+      "css": ".ds-field{display:flex;flex-direction:column;gap:6px;color:var(--muted,#c4d6ee);font-size:12px;font-family:\"Noto Sans Arabic\",sans-serif;line-height:1.85;}.ds-select{min-height:44px;padding:8px 12px;border:1px solid var(--line,#315a8d);border-radius:9px;background:#123e75;color:#fff;min-width:160px;font:inherit;cursor:pointer}.ds-select:focus-visible{outline:3px solid #ffd575;outline-offset:4px}"
+    },
+    {
+      "name": "Desktop navigation",
+      "kind": "nav",
+      "refersTo": "nav-active",
+      "description": "Line icon and Arabic label with a royal active row.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"القائمة الرئيسية\" dir=\"rtl\"><a class=\"ds-nav-link ds-active\" href=\"#\" aria-current=\"page\"><svg width=\"21\" height=\"21\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"m3 10 9-7 9 7v10H3Z\"/><path d=\"M9 20v-8h6v8\"/></svg>الرئيسية</a><a class=\"ds-nav-link\" href=\"#\">السلاسل</a></nav>",
+      "css": ".ds-nav{background:#06234b;padding:12px;font-family:\"Noto Sans Arabic\",sans-serif;line-height:1.85;font-size:15px}.ds-nav-link{min-height:49px;border-radius:12px;display:flex;align-items:center;gap:13px;padding:11px 14px;color:var(--muted,#c4d6ee);margin:4px 0;text-decoration:none}.ds-nav-link.ds-active{background:var(--royal,#1552ac);color:#fff;font-weight:600}.ds-nav-link:hover{background:#123e75;color:#fff}.ds-nav-link:focus-visible{outline:3px solid #ffd575;outline-offset:4px}"
+    },
+    {
+      "name": "Status badges",
+      "kind": "chip",
+      "refersTo": "badge-success",
+      "description": "Textual completed and awaiting-verification states.",
+      "html": "<div class=\"ds-badges\" dir=\"rtl\"><span class=\"ds-badge ds-success\">مكتملة</span><span class=\"ds-badge ds-warning\">بانتظار التحقق</span></div>",
+      "css": ".ds-badges{display:flex;gap:8px;font-family:\"Noto Sans Arabic\",sans-serif;line-height:1.85;}.ds-badge{display:inline-flex;align-items:center;padding:4px 9px;border-radius:8px;font-size:11px;color:#e0edff;background:#0d3d85}.ds-success{background:#dff7e8;color:var(--green,#126e46)}.ds-warning{background:#fff1ce;color:var(--amber,#775000)}"
+    },
+    {
+      "name": "Blocked series",
+      "kind": "card",
+      "refersTo": "series-blocked",
+      "description": "Actual Series 1 quarantine appearance; never implies scoring readiness.",
+      "html": "<article class=\"ds-series\" dir=\"rtl\"><div class=\"ds-series-head\"><bdi class=\"ds-tile\" dir=\"ltr\">1</bdi><span class=\"ds-series-badge\">بانتظار التحقق</span></div><h3>السلسلة 1</h3><p>صور الأسئلة متاحة. الإجابات الصحيحة لم تُتحقق من المصدر بعد.</p><a href=\"#\" class=\"ds-series-action\">مراجعة محتوى السلسلة</a></article>",
+      "css": ".ds-series{background:var(--surface,#103a71);color:#fff;border-radius:16px;padding:22px;display:flex;flex-direction:column;gap:12px;max-width:320px;font-family:\"Noto Sans Arabic\",sans-serif;line-height:1.85;font-size:15px}.ds-series-head{display:flex;justify-content:space-between;align-items:center;gap:8px}.ds-tile{display:grid;place-items:center;width:42px;height:42px;border-radius:12px;background:#fff6d9;color:#775000;font-size:20px;font-weight:600}.ds-series-badge{background:#fff1ce;color:#775000;padding:4px 9px;border-radius:8px;font-size:11px}.ds-series h3{font:600 17px/1.6 \"Noto Kufi Arabic\",sans-serif;margin:0}.ds-series p{font-size:12px;color:var(--muted,#c4d6ee);margin:0}.ds-series-action{min-height:48px;border:1px solid var(--line,#315a8d);border-radius:12px;padding:11px 20px;display:inline-flex;align-items:center;justify-content:center;gap:10px;font-size:15px;font-weight:600;line-height:1.6;cursor:pointer;transition:background .15s;font-family:\"Noto Sans Arabic\",sans-serif;min-height:44px;background:#fff;color:#104691;border:0;text-decoration:none;font-size:12px;padding:9px 14px}.ds-series-action:hover{background:#fff1ce}.ds-series-action:focus-visible{outline:3px solid #ffd575;outline-offset:4px}@media(prefers-reduced-motion:reduce){.ds-series-action{transition:none!important}}"
+    },
+    {
+      "name": "Home destination",
+      "kind": "card",
+      "refersTo": "home-path",
+      "description": "Royal blue destination with white circular line icon and left arrow.",
+      "html": "<a class=\"ds-path\" href=\"#\" dir=\"rtl\"><span class=\"ds-path-icon\"><svg width=\"29\" height=\"29\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"m12 3 9 5-9 5-9-5Z\"/><path d=\"m3 12 9 5 9-5M3 16l9 5 9-5\"/></svg></span><span><h2>سلاسل الامتحان</h2><p>تدرّب على أسئلة الامتحان، سلسلة بعد سلسلة</p></span><svg class=\"ds-path-arrow\" width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"M20 12H4m6-6-6 6 6 6\"/></svg></a>",
+      "css": ".ds-path{display:flex;align-items:center;gap:20px;min-height:154px;border-radius:16px;padding:26px;background:var(--royal,#1552ac);color:#fff;box-shadow:0 12px 26px #00173335;transition:background .15s;text-decoration:none;font-family:\"Noto Sans Arabic\",sans-serif;line-height:1.85;}.ds-path:hover{background:#2163bd}.ds-path-icon{width:64px;height:64px;display:grid;place-items:center;border-radius:50%;background:#fff;color:#1552ac;flex-shrink:0}.ds-path h2{font:600 20px/1.6 \"Noto Kufi Arabic\",sans-serif;margin:0 0 8px}.ds-path p{font-size:13px;color:#dae7fc;margin:0;max-width:34ch}.ds-path-arrow{margin-inline-start:auto;flex-shrink:0}.ds-path:focus-visible{outline:3px solid #ffd575;outline-offset:4px}@media(prefers-reduced-motion:reduce){.ds-path{transition:none!important}}@media(max-width:520px){.ds-path{min-height:134px;padding:22px;gap:16px}.ds-path-icon{width:56px;height:56px}.ds-path h2{font-size:19px}.ds-path p{font-size:12px;max-width:28ch}}"
+    },
+    {
+      "name": "Corrected answer keys",
+      "kind": "custom",
+      "refersTo": "answer-correct",
+      "description": "Persistent red/green correction with Latin digits, icons and full opacity.",
+      "html": "<div class=\"ds-answers\" aria-label=\"الإجابات\"><button class=\"ds-answer ds-wrong\" disabled aria-pressed=\"true\" aria-label=\"الإجابة 1\"><bdi dir=\"ltr\">1</bdi><svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"m18 6-12 12M6 6l12 12\"/></svg></button><button class=\"ds-answer ds-correct\" disabled aria-pressed=\"false\" aria-label=\"الإجابة 2\"><bdi dir=\"ltr\">2</bdi><svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"m20 6-11 11-5-5\"/></svg></button><button class=\"ds-answer\" disabled aria-pressed=\"false\" aria-label=\"الإجابة 3\">3</button><button class=\"ds-answer\" disabled aria-pressed=\"false\" aria-label=\"الإجابة 4\">4</button></div>",
+      "css": ".ds-answers{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;direction:ltr}.ds-answer{position:relative;min-height:86px;border:2px solid #356ac4;border-radius:12px;background:var(--royal,#1552ac);color:#fff;font:600 32px/1.85 \"Noto Sans Arabic\",sans-serif;cursor:pointer;transition:background .15s}.ds-answer:hover:not(:disabled){background:#2163bd}.ds-answer[aria-pressed=true]{background:#ffc34a;border-color:#ffc34a;color:#082b5a}.ds-answer.ds-correct{background:var(--green,#126e46);border-color:#51ba81;color:#fff}.ds-answer.ds-wrong{background:var(--red,#b62536);border-color:#ff8290;color:#fff}.ds-answer:disabled{opacity:1;cursor:not-allowed}.ds-answer:disabled.ds-correct,.ds-answer:disabled.ds-wrong{cursor:default}.ds-answer svg{position:absolute;top:6px;right:6px}.ds-answer bdi{font-variant-numeric:tabular-nums;white-space:nowrap}.ds-answer:focus-visible{outline:3px solid #ffd575;outline-offset:4px}@media(prefers-reduced-motion:reduce){.ds-answer{transition:none!important}}@media(max-width:520px){.ds-answers{gap:10px}.ds-answer{min-height:80px;font-size:30px}}"
+    },
+    {
+      "name": "Correction feedback",
+      "kind": "custom",
+      "refersTo": "feedback-error",
+      "description": "Arabic text/icon verdict, chosen and correct answers, and correction download.",
+      "html": "<div class=\"ds-feedback\" dir=\"rtl\" role=\"status\"><strong><svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"m18 6-12 12M6 6l12 12\"/></svg>إجابة خاطئة</strong><p>إجابتك: <bdi dir=\"ltr\">1</bdi><br>الإجابة الصحيحة: <bdi dir=\"ltr\">2</bdi></p><button class=\"ds-download\" type=\"button\">تنزيل التصحيح</button></div>",
+      "css": ".ds-feedback{border-radius:12px;padding:18px 22px;margin-top:20px;background:#ffe5e8;color:#9b1428;font-family:\"Noto Sans Arabic\",sans-serif;line-height:1.85;font-size:15px}.ds-feedback strong{display:flex;align-items:center;gap:9px;font-size:18px}.ds-feedback p{font-size:14px;margin:10px 0 0}.ds-feedback bdi{display:inline-block;font-variant-numeric:tabular-nums;white-space:nowrap}.ds-download{min-height:48px;border:1px solid var(--line,#315a8d);border-radius:12px;padding:11px 20px;display:inline-flex;align-items:center;justify-content:center;gap:10px;font-size:15px;font-weight:600;line-height:1.6;cursor:pointer;transition:background .15s;font-family:\"Noto Sans Arabic\",sans-serif;background:#fff;color:#082b5a;border-color:#caa4af;font-size:12px;min-height:44px;padding:9px 14px;margin-top:14px}.ds-download:hover{background:#235a9b}.ds-download:focus-visible{outline:3px solid #ffd575;outline-offset:4px}@media(prefers-reduced-motion:reduce){.ds-download{transition:none!important}}@media(max-width:520px){.ds-feedback{padding:16px}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "طريقي — the blue road to practice",
+    "overview": "A confident Arabic driving-practice interface built around a deep blue canvas, royal blue destinations and warm yellow actions. The user's pinned direction overrides the earlier seed (15144445) and the previous light study interface. This is a record of the implemented system, not a proposal for another theme.\n\nWhite Arabic typography sits above faint original road-sign outlines. The original question image remains the visual authority during practice; large numbered answer keys and persistent correction states give the learning loop a clear rhythm. UI text reads right to left, while utility numbers use Latin digits and isolated left-to-right expressions.",
+    "keyCharacteristics": [
+      "Deep blue surroundings, royal blue cards, white type and yellow actions.",
+      "Local Arabic heading and body fonts with Latin utility digits.",
+      "Six colorful home destinations and an image-led practice surface.",
+      "Explicit correction through text, icons and color."
+    ],
+    "rules": [
+      {
+        "name": "The Correction Clarity Rule",
+        "body": "Pair correction color with Arabic text and a check or cross; locked answer keys retain full opacity.",
+        "section": "colors"
+      },
+      {
+        "name": "The Reading Direction Rule",
+        "body": "Keep Arabic text RTL. Format utility digits through src/lib/numbers.ts and isolate composite numeric expressions with Numeric; answer keys stay in 1–4 left-to-right order.",
+        "section": "typography"
+      },
+      {
+        "name": "The Source Truth Rule",
+        "body": "Show unverified series as awaiting verification with a content-review link. Never style source availability as scoreable readiness.",
+        "section": "components"
+      }
+    ],
+    "dos": [
+      "**Do** preserve the user-pinned blue, white and yellow world and the faint original road-sign pattern.",
+      "**Do** keep Arabic text RTL and Latin numeric expressions isolated through Numeric.",
+      "**Do** display the complete source question image with zoom access, four multi-select keys and a separate confirmation action.",
+      "**Do** preserve text, icon and color correction, full-opacity locked keys, visible focus and reduced-motion support.",
+      "**Do** retain truthful awaiting-verification cards and empty states; Series 1 has images but remains blocked from scoring until its answer keys are verified."
+    ],
+    "donts": [
+      "**Don't** restore the stale light palette or Eastern-digit formatting.",
+      "**Don't** crop the source question, invent answer keys or explanations, or fabricate progress.",
+      "**Don't** turn the yellow action color into a default surface for every card.",
+      "**Don't** describe all controls as at least 44px: the desktop question-navigation grid currently uses 40px keys."
+    ]
+  }
+}

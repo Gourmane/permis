@@ -1,0 +1,13 @@
+{
+  "questions": 420,
+  "series": 14,
+  "playableSeries": 13,
+  "blockedSeries": [
+    {
+      "id": "series-01",
+      "number": 1,
+      "questionCount": 40,
+      "reason": "No verified answer keys"
+    }
+  ]
+}

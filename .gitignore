@@ -1,0 +1,13 @@
+node_modules/
+.next/
+out/
+/source-videos/
+/.tools/
+/reports/frames/
+/reports/contact-sheets/
+*.tsbuildinfo
+.env*
+!.env.example
+/reports/browser-backup.json
+__pycache__/
+/reports/screenshots/

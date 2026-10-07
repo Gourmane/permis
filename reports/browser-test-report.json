@@ -1,0 +1,24 @@
+{
+  "checks": [
+    "every playable series 2–14 starts at its first valid image",
+    "Series 1 missing-answer blocker has actionable filtered review",
+    "RTL quiz and validate disabled without selection",
+    "multiple selection",
+    "wrong answer correction and no automatic advance",
+    "client-side correction PNG",
+    "session survives refresh",
+    "previous question retains correction",
+    "zoom dialog, Escape and keyboard guard",
+    "historical mistake card",
+    "bulk ZIP correction",
+    "keyboard answer and end-of-quiz scoring",
+    "mastery retains mistake history",
+    "progress JSON export",
+    "invalid import does not crash",
+    "reset confirmation and valid restore",
+    "reset clears state; import restores mistake and bookmark history",
+    "all screens at 9 mobile/tablet/laptop/desktop sizes, no overflow or Arabic-Indic digits",
+    "no browser runtime errors"
+  ],
+  "errors": []
+}

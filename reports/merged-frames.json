@@ -1,0 +1,156 @@
+[
+  {
+    "questionId": "s02-q010",
+    "mergedCandidates": [
+      10,
+      11
+    ]
+  },
+  {
+    "questionId": "s02-q031",
+    "mergedCandidates": [
+      32,
+      33
+    ]
+  },
+  {
+    "questionId": "s02-q032",
+    "mergedCandidates": [
+      34,
+      35
+    ]
+  },
+  {
+    "questionId": "s02-q040",
+    "mergedCandidates": [
+      43,
+      44
+    ]
+  },
+  {
+    "questionId": "s03-q018",
+    "mergedCandidates": [
+      18,
+      19
+    ]
+  },
+  {
+    "questionId": "s03-q020",
+    "mergedCandidates": [
+      21,
+      22
+    ]
+  },
+  {
+    "questionId": "s03-q040",
+    "mergedCandidates": [
+      42,
+      43
+    ]
+  },
+  {
+    "questionId": "s04-q028",
+    "mergedCandidates": [
+      28,
+      29
+    ]
+  },
+  {
+    "questionId": "s04-q032",
+    "mergedCandidates": [
+      33,
+      34
+    ]
+  },
+  {
+    "questionId": "s04-q036",
+    "mergedCandidates": [
+      38,
+      39
+    ]
+  },
+  {
+    "questionId": "s04-q037",
+    "mergedCandidates": [
+      40,
+      41
+    ]
+  },
+  {
+    "questionId": "s05-q021",
+    "mergedCandidates": [
+      21,
+      22
+    ]
+  },
+  {
+    "questionId": "s06-q020",
+    "mergedCandidates": [
+      20,
+      21
+    ]
+  },
+  {
+    "questionId": "s07-q034",
+    "mergedCandidates": [
+      34,
+      35
+    ]
+  },
+  {
+    "questionId": "s08-q008",
+    "mergedCandidates": [
+      8,
+      9
+    ]
+  },
+  {
+    "questionId": "s10-q012",
+    "mergedCandidates": [
+      12,
+      13
+    ]
+  },
+  {
+    "questionId": "s11-q007",
+    "mergedCandidates": [
+      7,
+      8
+    ]
+  },
+  {
+    "questionId": "s12-q007",
+    "mergedCandidates": [
+      7,
+      8
+    ]
+  },
+  {
+    "questionId": "s12-q008",
+    "mergedCandidates": [
+      9,
+      10
+    ]
+  },
+  {
+    "questionId": "s13-q002",
+    "mergedCandidates": [
+      2,
+      3
+    ]
+  },
+  {
+    "questionId": "s13-q005",
+    "mergedCandidates": [
+      6,
+      7
+    ]
+  },
+  {
+    "questionId": "s14-q008",
+    "mergedCandidates": [
+      8,
+      9
+    ]
+  }
+]

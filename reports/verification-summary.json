@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-07",
+  "lint": "passed",
+  "tests": {"passed": 16, "failed": 0},
+  "build": "passed",
+  "browserSmokeChecks": 19,
+  "fullQuiz": {"correct": 39, "total": 40, "intentionalWrong": 1, "resultRefresh": "passed"},
+  "viewports": [[360,800],[375,812],[390,844],[412,915],[430,932],[768,1024],[1366,768],[1440,900],[1920,1080]],
+  "runtimeErrors": [],
+  "consoleErrors": [],
+  "sourceQuestions": 420,
+  "verifiedQuestions": 380,
+  "playableSeries": 13,
+  "blockedSeries": [{"id": "series-01", "reason": "40 missing verified answer keys", "requiresManualVerification": true}],
+  "staticExportNormalizedPayloads": 10,
+  "visualReview": "approved on supplied desktop/mobile evidence"
+}
